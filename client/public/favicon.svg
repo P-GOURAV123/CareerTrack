@@ -1,0 +1,22 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="CareerTrack logo">
+  <defs>
+    <linearGradient id="grad1" x1="0%" x2="100%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#60a5fa"/>
+      <stop offset="52%" stop-color="#2563eb"/>
+      <stop offset="100%" stop-color="#1d4ed8"/>
+    </linearGradient>
+    <linearGradient id="grad2" x1="0%" x2="100%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#ecfeff"/>
+      <stop offset="100%" stop-color="#dbeafe"/>
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="30" fill="url(#grad1)"/>
+  <circle cx="64" cy="64" r="46" fill="rgba(255,255,255,0.10)"/>
+  <path d="M34 46c0-8.8 7.2-16 16-16h28c8.8 0 16 7.2 16 16v14H34V46z" fill="#f8fbff" opacity="0.95"/>
+  <rect x="34" y="58" width="60" height="18" rx="7" fill="#f8fbff" opacity="0.96"/>
+  <rect x="34" y="80" width="38" height="12" rx="6" fill="url(#grad2)"/>
+  <rect x="78" y="80" width="16" height="12" rx="6" fill="#d1fae5"/>
+  <path d="M92 81l5 5 10-13" stroke="#166534" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <path d="M44 100h40" stroke="#bfdbfe" stroke-width="5" stroke-linecap="round"/>
+  <path d="M86 38l8 8 16-18" stroke="#dbeafe" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.9"/>
+</svg>
