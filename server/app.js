@@ -16,9 +16,20 @@ dotenv.config({ path: path.join(__dirname, '.env') });
 
 const app = express();
 
+const allowedClientOrigins = (process.env.CLIENT_URL || 'http://localhost:5173,https://career-track-pn9pw12ei-p-gourav123s-projects.vercel.app')
+  .split(',')
+  .map((origin) => origin.trim())
+  .filter(Boolean);
+
 app.use(
   cors({
-    origin: process.env.CLIENT_URL || 'http://localhost:5173',
+    origin: (origin, callback) => {
+      if (!origin || allowedClientOrigins.includes(origin)) {
+        callback(null, true);
+        return;
+      }
+      callback(null, false);
+    },
     credentials: true,
   })
 );
