@@ -1,3 +1,7 @@
+## 🎥 Project Demo
+https://go.screenpal.com/watch/cO6wosny7jM
+
+
 # CareerTrack
 
 CareerTrack is a full-stack job and internship tracker designed as a college end-term project. It helps users manage applications, track progress, monitor interview follow-ups, and review analytics from a single dashboard.
